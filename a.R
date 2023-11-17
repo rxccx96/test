@@ -1,5 +1,5 @@
 library(tidyverse)
-
+library(vegan)
 data <- palmerpenguins::penguins
 
 ggplot(data = data) +
